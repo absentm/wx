@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/wx">
+    <Resource  
+        name="jdbc/wxDB"  
+        auth="Container"  
+        type="javax.sql.DataSource" 
+        maxActive="10" maxIdle="2" maxWait="10000" 
+        username="root" password="123456"  
+        driverClassName="com.mysql.jdbc.Driver" 
+        url="jdbc:mysql://121.40.145.106:3306/wx?autoReconnect=true" 
+    /> 
+</Context> 
